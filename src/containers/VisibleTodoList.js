@@ -10,7 +10,7 @@ const getVisibleTodos = (todos, filter) => {
       return todos.filter(todo => todo.completed);
     case 'SHOW_ACTIVE':
       return todos.filter(todo => !todo.completed);
-    case default:
+    default:
       return 'Something went wrong';
   }
 }
