@@ -11,6 +11,7 @@ const Todo = ({ onClick, completed, text }) => (
   < /li >
 )
 
+// will produce a warning if prop types don't match
 Todo.propTypes = {
   onClick: PropTypes.func.isRequired,
   completed: PropTypes.bool.isRequired,

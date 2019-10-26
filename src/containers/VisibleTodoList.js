@@ -29,5 +29,8 @@ const mapDispatchToProps = dispatch => {
   }
 }
 
+// like FilterLink, this file is responsible for setting up the connection
+// between the TodoList component and the store. below, we export that connected
+// TodoList component
 const VisibleTodoList = connect(mapStateToProps, mapDispatchToProps)(TodoList);
 export default VisibleTodoList;

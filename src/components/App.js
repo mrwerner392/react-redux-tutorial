@@ -8,6 +8,8 @@ import VisibleTodoList from '../containers/VisibleTodoList';
 const App = () => {
   return (
     < div className="App" >
+
+      // render the container components (imported above)
       < AddTodo />
       < VisibleTodoList />
       < Footer />

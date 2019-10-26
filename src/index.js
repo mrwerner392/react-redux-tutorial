@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+// todoApp is the result of combineReducers in reducers/index.js
 import todoApp from './reducers';
 import App from './components/App';
 // import * as serviceWorker from './serviceWorker';

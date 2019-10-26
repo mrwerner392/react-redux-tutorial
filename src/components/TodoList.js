@@ -10,6 +10,7 @@ const TodoList = ({ todos, onTodoClick }) => (
   < /ul >
 )
 
+// will produce a warning if prop types don't match
 TodoList.propTypes = {
   todos: PropTypes.arrayOf(
     PropTypes.shape({
